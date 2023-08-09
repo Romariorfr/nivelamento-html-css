@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+}
+
+h1 {
+  color: red;
+}
+
+h1,
+h2 {
+  color: blue;
+}
+
+h1:hover {
+  color: aqua;
+  cursor: pointer;
+}

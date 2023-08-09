@@ -1,21 +1,26 @@
-*{
-    margin: 0;;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.bloco{
-    width: 100px;
-    height: 200px;
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
+body {
+  background-color: #bbb;
 }
 
-.container-dos-blocos{
-    height: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+.container-dos-blocos {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bloco {
+  width: 280px;
+  height: 200px;
+  margin: 20px;
+  background-color: #fff;
+}
+
+.container-dos-blocos :hover {
+  border: 2px solid red;
 }

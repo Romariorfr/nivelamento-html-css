@@ -1,104 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Top</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Romário Ferreira</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
 </head>
 
 <body>
-
     <header>
-        <nav>
-            <h1>Loja Top</h1>
-            <ul>
-                <li><a href="#categories">Categorias</a></li>
-                <li><a href="#titles">Títulos</a></li>
-                <li><a href="#about">Sobre nós</a></li>
+        <nav class="nav-main">
+            <h1 class="nav-brand">Dev: Romário Ferreira</h1>
+            <ul class="menu-items">
+                <li><a href="#categories">Home</a></li>
+                <li><a href="#titles">Portifólio</a></li>
+                <li><a href="#about">Resumo</a></li>
+                <li><a href="#about">Contato</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <section id="categories">
+        <section id="categories" class="section-categories">
             <h2>Categorias</h2>
-            <ul>
-                <li>Fantasia</li>
-                <li>Educação</li>
+            <ul class="categories-list">
+                <li>Projetos Frontend</li>
+                <li>Projetos Backend</li>
             </ul>
         </section>
-
-        <section id="titles">
-            <h2>Títulos</h2>
-
-            <div class="card">
-                <img src="img/book1.jpg" alt=" O Senhor dos anéis">
-                <div>
-                    <h3>O senhor dos anés</h3>
-                    <p>Navegue por essa grande aventura</p>
-                    <p>R$ 389.99</p>
+        <section id="titles" class="section-titles">
+            <h2>Projetos desenvolvidos</h2>
+            <div class="title-card">
+                <img class="title-card-img" src="img/catalogo-filmes.png" alt="Avaliação de filmes" />
+                <div class="title-card-description">
+                    <h3>Avaliação de filmes</h3>
+                    <p>Catálogo de filmes e avaliações</p>
+                    <p class="title-price"><span>Ver detalhes </span></p>
                 </div>
-
-
             </div>
-
-            <div class="card">
-                <img src="img/book2.jpg" alt="Rails for dummies">
-                <div>
-                    <p>Rails for dummies</p>
-                    <h3>Aprenda esta fantástica ferramenta</h3>
-                    <p><span>R$</span> 250.49</p>
+            <div class="title-card">
+                <img class="title-card-img" src="img/sms-vendas.png" alt="Envio sms" />
+                <div class="title-card-description">
+                    <h3>Notificação por sms</h3>
+                    <p>Solução para envio de mensagens</p>
+                    <p class="title-price"><span>Ver detalhes </span></p>
                 </div>
             </div>
 
+            <div class="title-card">
+                <img class="title-card-img" src="img/github.png" alt="Envio sms" />
+                <div class="title-card-description">
+                    <h3>Integração com API</h3>
+                    <p>Integração com API externas</p>
+                    <p class="title-price"><span>Ver detalhes </span></p>
+                </div>
+            </div>
         </section>
-
-        <section id="about">
-            <h2>Sobre nós</h2>
+        <section id="about" class="section-about">
+            <h2>Sobre</h2>
             <h3>O que fazemos</h3>
-            <p>Ajudamos pessoas a se tornarem desenvolvedores profissionais</p>
+            <p>"Potencializamos seus negócios com soluções web criativas, transformando ideias em sucesso!"</p>
             <h3>Saiba mais</h3>
-            <iframe width="320" height="180" src="https://www.youtube.com/embed/6PBJUxIiRBI"
-                title="O que estudar para ser programador / desenvolvedor?" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
+            <h1>#Somos Dev</h1>
         </section>
     </main>
-
     <footer>
-        <div>
+        <div class="footer-content">
             <div>
                 <h2>Siga-nos</h2>
-                <a href="https://www.youtube.com/@DevSuperior">youtube</a>
-                <a href="https://instagram.com/devsuperior.ig">Instagram</a>
+                <a href="https://www.youtube.com/devsuperior">Youtube</a>
+                <a href="https://www.instagram.com/devsuperior.ig">Instagram</a>
             </div>
-
             <div>
                 <h2>Entre em contato</h2>
                 <address>
-                    Escreva para nosso <a href="mailto:contato@devsuperior">email</a>. <br>Até a próxima.
+                    Escreva para nosso <a href="mailto:contato@devsuperior.com">email</a>.<br>
+                    Até a próxima!
                 </address>
             </div>
         </div>
-
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 
 </html>

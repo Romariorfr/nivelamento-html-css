@@ -7,6 +7,12 @@
   font-family: "Montserrat", sans-serif;
 }
 
+h1,
+h3,
+p {
+  color: #555;
+}
+
 a {
   color: #8be8f4;
   text-decoration: none;
@@ -103,10 +109,18 @@ section {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
+  transition: transform 0.3s ease;
+  height: 255px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
 }
 
 .title-card-img {
-  width: 300px;
+  width: 400px;
   border-radius: 10px 10px 0 0;
 }
 
@@ -125,6 +139,7 @@ section {
   font-weight: 700;
   margin-top: 10px;
   font-size: 28px;
+  cursor: pointer;
 }
 
 .title-price span {

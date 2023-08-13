@@ -9,7 +9,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-footer{
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,15 +110,49 @@ footer{
   margin: 20px;
 }
 
-.footer-title{
+.footer-title {
   color: #fff;
   font-size: 14px;
   margin-top: 30px;
 }
 
-.social-container img{
+.social-container img {
   width: 32px;
   height: 32px;
   margin: 10px;
+}
 
+@media (min-width: 576px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 24px;
+  }
+
+  .portifolio-item {
+    width: 280px;
+  }
+
+  .nav-main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-brand {
+    margin-bottom: 0;
+    font-size: 24px;
+  }
+
+  .nav-container {
+    display: flex;
+    font-size: 30px;
+  }
+
+  .menu-items li{
+    font-size: 18px;
+  }
 }
